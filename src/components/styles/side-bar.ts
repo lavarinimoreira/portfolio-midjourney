@@ -6,7 +6,7 @@ export const SidebarContainer = styled.main`
     flex-direction: column;
 
     min-height: 100vh;
-    width: 20rem;
+    width: 21rem;
     color: ${({ theme }) => theme.colors.white};
     background: ${({ theme }) => theme.colors.background};
 `;
@@ -28,6 +28,7 @@ export const TitleLink = styled(Link)`
     text-decoration: none;
     color: ${({ theme }) => theme.colors.white};
     align-self: center;
+    margin: 0 0 1rem 0;
 `;
 
 export const NavigationLinks = styled.nav`
@@ -49,7 +50,7 @@ export const NavigationLinks = styled.nav`
     a {
         display: flex;
         align-items: center;
-        /* justify-content: center; */
+        justify-content: space-between;
 
         color: ${({ theme }) => theme.colors.white};
         text-decoration: none;
@@ -86,16 +87,18 @@ export const NavigationLinks = styled.nav`
         }
     }
 
-    .active::before {
-        content: '>';
+    .active {
+        background: ${(props) => props.color};
     }
 `;
 
 export const HomeNav = styled(NavLink)`
-    background-color: rgba(124, 45, 18, 0.2);
+    background: rgba(124, 45, 18, 0.2);
+    color: rgba(124, 45, 18, 1);
 
-    &:hover {
-        background-color: rgba(124, 45, 18, 1);
+    &:hover,
+    &.active {
+        background: rgba(124, 45, 18, 1);
     }
 
     svg {
@@ -105,7 +108,8 @@ export const HomeNav = styled(NavLink)`
 export const AboutNav = styled(NavLink)`
     background-color: rgba(6, 78, 59, 0.2);
 
-    &:hover {
+    &:hover,
+    &.active {
         background-color: rgba(6, 78, 59, 1);
     }
 
@@ -116,7 +120,8 @@ export const AboutNav = styled(NavLink)`
 export const ProjectsNav = styled(NavLink)`
     background-color: rgba(55, 48, 163, 0.2);
 
-    &:hover {
+    &:hover,
+    &.active {
         background-color: rgba(55, 48, 163, 1);
     }
 
@@ -127,7 +132,8 @@ export const ProjectsNav = styled(NavLink)`
 
 export const GalleryNav = styled(NavLink)`
     background-color: rgba(136, 19, 55, 0.2);
-    &:hover {
+    &:hover,
+    &.active {
         background-color: rgba(136, 19, 55, 1);
     }
 
@@ -138,7 +144,8 @@ export const GalleryNav = styled(NavLink)`
 export const ContactNav = styled(NavLink)`
     background-color: rgba(113, 63, 18, 0.2);
 
-    &:hover {
+    &:hover,
+    &.active {
         background-color: rgba(113, 63, 18, 1);
     }
 
