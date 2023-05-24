@@ -9,6 +9,11 @@ export const SidebarContainer = styled.main`
     width: 21rem;
     color: ${({ theme }) => theme.colors.white};
     background: ${({ theme }) => theme.colors.background};
+
+    @media (max-width: 750px) {
+        width: 100%;
+        min-height: auto;
+    }
 `;
 
 export const Avatar = styled.img`
@@ -20,6 +25,11 @@ export const Avatar = styled.img`
 
     align-self: center;
     /* object-fit: cover; */
+
+    @media (max-width: 750px) {
+        width: 150px;
+        height: 150px;
+    }
 `;
 
 export const TitleLink = styled(Link)`
@@ -44,7 +54,9 @@ export const NavigationLinks = styled.nav`
     @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
         grid-template-columns: auto auto;
         gap: 0.8rem;
-        padding: 0 1rem;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
     }
 
     a {
@@ -75,6 +87,7 @@ export const NavigationLinks = styled.nav`
 
         @media screen and (max-width: ${(props) => props.theme.breakpoints.md}) {
             border-radius: 20px;
+            width: 100px;
             &:hover {
                 transform: translateX(0) scale(1.02);
             }

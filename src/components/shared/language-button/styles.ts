@@ -17,4 +17,10 @@ export const Container = styled.div`
     .not-selected {
         opacity: 0.4;
     }
+
+    /* @media (max-width: 750px) {
+        .en {
+            margin: 0;
+        }
+    } */
 `;
