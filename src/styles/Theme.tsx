@@ -35,9 +35,10 @@ export const theme: DefaultTheme = {
         secondary: '#FE8C00',
 
         text: '#fff',
-        background: '#191919',
+        background: '#050421',
+        // background: '#191919',
         // background: '#060522',
-        container: '#2d2d2d',
+        container: '#101a35',
         backgroundBody: '#0c0b08',
 
         home: 'rgb(249 115 22)',
@@ -45,6 +46,9 @@ export const theme: DefaultTheme = {
         projects: 'rgb(249 115 22)',
         gallery: 'rgb(249 115 22)',
         contact: 'rgb(249 115 22)',
+        contentBg: '#151f38',
+        buttonBg: '#047857',
+        buttonHover: '#065f46',
     },
     fontFamily: {
         text: ['JetBrains Mono', 'monospace'].join(','),

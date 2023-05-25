@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const SidebarContainer = styled.main`
     display: flex;
     flex-direction: column;
+    font-family: ${(props) => props.theme.fontFamily.sidebar};
 
     min-height: 100vh;
     width: 21rem;
@@ -79,7 +80,7 @@ export const NavigationLinks = styled.nav`
         transition-duration: 0.15s;
         transition-property: all;
 
-        transition: margin 0.3s ease, justify-content 0.3s ease;
+        /* transition: margin 0.3s ease, justify-content 0.3s ease; */
 
         &:hover {
             cursor: pointer;

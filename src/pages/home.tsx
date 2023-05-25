@@ -1,5 +1,7 @@
+import EnglishHome from '../components/english/home';
+
 function Home() {
-    return <h1>Home Page</h1>;
+    return <EnglishHome />;
 }
 
 export default Home;

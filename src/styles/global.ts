@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: ${(props) => props.theme.colors.container};
     color: ${(props) => props.theme.colors.white};
-    font-family: ${(props) => props.theme.fontFamily.sans};
+    font-family: ${(props) => props.theme.fontFamily.text};
     /* padding: 1rem; */
   }
 `;

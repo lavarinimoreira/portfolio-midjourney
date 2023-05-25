@@ -39,6 +39,9 @@ declare module 'styled-components' {
             projects: string;
             gallery: string;
             contact: string;
+            contentBg: string;
+            buttonBg: string;
+            buttonHover: string;
         };
         fontFamily: {
             text: string;
