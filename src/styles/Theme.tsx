@@ -38,7 +38,7 @@ export const theme: DefaultTheme = {
         background: '#050421',
         // background: '#191919',
         // background: '#060522',
-        container: '#101a35',
+        container: '#061434',
         backgroundBody: '#0c0b08',
 
         home: 'rgb(249 115 22)',
