@@ -20,7 +20,7 @@ interface SideBarProps {
     toggleLanguage: () => void;
 }
 
-function EnglishSideBar({ toggleLanguage }: SideBarProps) {
+function PortugueseSideBar({ toggleLanguage }: SideBarProps) {
     return (
         <SidebarContainer>
             <Avatar src='images/gabriel.png' />
@@ -28,19 +28,19 @@ function EnglishSideBar({ toggleLanguage }: SideBarProps) {
             <LanguageButton toggleLanguage={toggleLanguage} />
             <NavigationLinks>
                 <HomeNav to='/'>
-                    <span>Home</span> <AiOutlineHome />
+                    <span>Início</span> <AiOutlineHome />
                 </HomeNav>
                 <AboutNav to='/about'>
-                    <span>About</span> <HiOutlineInformationCircle />
+                    <span>Sobre</span> <HiOutlineInformationCircle />
                 </AboutNav>
                 <ProjectsNav to='/projects'>
-                    <span>Projects</span> <AiFillFolderOpen />
+                    <span>Projetos</span> <AiFillFolderOpen />
                 </ProjectsNav>
                 <GalleryNav to='/gallery'>
-                    <span>Gallery</span> <IoMdImages />
+                    <span>Galeria</span> <IoMdImages />
                 </GalleryNav>
                 <ContactNav to='/contact'>
-                    <span>Contact</span>
+                    <span>Contato</span>
                     <RiContactsLine />
                 </ContactNav>
             </NavigationLinks>
@@ -48,4 +48,4 @@ function EnglishSideBar({ toggleLanguage }: SideBarProps) {
     );
 }
 
-export default EnglishSideBar;
+export default PortugueseSideBar;

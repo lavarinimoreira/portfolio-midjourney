@@ -1,23 +1,27 @@
-import { useState } from 'react';
 import { Container } from './styles';
 
-function LanguageButton() {
-    const [lang, setLang] = useState('en-US');
+import { useContext } from 'react';
+import LanguageContext, { languages } from '../../../contexts/language-context';
 
-    const handleEnglish = () => {
-        setLang('en-US');
-    };
+interface LanguageSelectorProps {
+    toggleLanguage: () => void;
+}
 
-    const handlePortuguese = () => {
-        setLang('pt-BR');
-    };
+function LanguageButton({ toggleLanguage }: LanguageSelectorProps) {
+    const language = useContext(LanguageContext);
 
     return (
         <Container>
-            <span onClick={handleEnglish} className={lang === 'en-US' ? 'en' : 'en not-selected'}>
+            <span
+                onClick={toggleLanguage}
+                className={language === languages.english ? 'en' : 'en not-selected'}
+            >
                 EN
             </span>
-            <span onClick={handlePortuguese} className={lang === 'pt-BR' ? '' : 'not-selected'}>
+            <span
+                onClick={toggleLanguage}
+                className={language === languages.portuguese ? '' : 'not-selected'}
+            >
                 PT
             </span>
         </Container>
