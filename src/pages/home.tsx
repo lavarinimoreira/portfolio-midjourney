@@ -1,7 +1,10 @@
+import { useContext } from 'react';
 import EnglishHome from '../components/english/home';
+import PortugueseHome from '../components/portuguese/home';
+import LanguageContext, { languages } from '../contexts/language-context';
 
-function Home() {
-    return <EnglishHome />;
+export default function Home() {
+    const language = useContext(LanguageContext);
+
+    return language === languages.english ? <EnglishHome /> : <PortugueseHome />;
 }
-
-export default Home;

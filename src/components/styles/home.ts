@@ -23,4 +23,27 @@ export const HomeContainer = styled.div`
     h2 {
         margin: 0 0 4rem 0;
     }
+
+    @media (max-width: 1250px) {
+        & {
+            margin-left: 4rem;
+        }
+    }
+
+    @media (max-width: 1250px) {
+        & {
+            margin: 2rem 1rem 0 1rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: ${({ theme }) => theme.fontSize['3xl']};
+        }
+
+        h2 {
+            font-size: ${({ theme }) => theme.fontSize.base};
+            margin-bottom: 2rem;
+        }
+    }
 `;

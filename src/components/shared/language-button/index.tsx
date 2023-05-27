@@ -10,16 +10,24 @@ interface LanguageSelectorProps {
 function LanguageButton({ toggleLanguage }: LanguageSelectorProps) {
     const language = useContext(LanguageContext);
 
+    const handleEnglish = () => {
+        language === languages.english ? '' : toggleLanguage();
+    };
+
+    const handlePortuguese = () => {
+        language === languages.portuguese ? '' : toggleLanguage();
+    };
+
     return (
         <Container>
             <span
-                onClick={toggleLanguage}
+                onClick={handleEnglish}
                 className={language === languages.english ? 'en' : 'en not-selected'}
             >
                 EN
             </span>
             <span
-                onClick={toggleLanguage}
+                onClick={handlePortuguese}
                 className={language === languages.portuguese ? '' : 'not-selected'}
             >
                 PT
