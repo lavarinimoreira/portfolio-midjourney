@@ -1,0 +1,26 @@
+import { useEffect, useState } from 'react';
+import { Computer, Container, SystemTime } from './styles';
+
+function Time() {
+    const [date, setDate] = useState(new Date());
+
+    // getting the current time
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setDate(new Date());
+        }, 1000);
+        return () => clearInterval(timer);
+    }, []);
+
+    return (
+        <Container>
+            <SystemTime>
+                <span className='date'>{date.toLocaleDateString()}</span>
+                <span>{date.toLocaleTimeString()}</span>
+            </SystemTime>
+            <Computer src='images/computer.png' />
+        </Container>
+    );
+}
+
+export default Time;

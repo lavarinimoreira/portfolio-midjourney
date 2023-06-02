@@ -25,7 +25,7 @@ export const Avatar = styled.img`
     height: 200px;
 
     align-self: center;
-    /* object-fit: cover; */
+    object-fit: cover;
 
     @media (max-width: 750px) {
         width: 150px;

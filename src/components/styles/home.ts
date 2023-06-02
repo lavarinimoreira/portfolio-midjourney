@@ -8,7 +8,7 @@ export const HomeContainer = styled.div`
 
     height: fit-content;
     margin-top: 6rem;
-    margin-left: 18%;
+    margin-left: 16%;
     padding: 4rem;
     border-radius: 48px;
 

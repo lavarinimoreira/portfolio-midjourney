@@ -4,6 +4,7 @@ import { MainContainer } from '../styles/main';
 import LanguageContext, { languages } from '../contexts/language-context';
 import useLanguage from '../hooks/useLanguage';
 import PortugueseSideBar from '../components/portuguese/side-bar';
+import Time from '../components/shared/time';
 
 export default function Main() {
     const [language, setLanguage] = useLanguage(
@@ -27,6 +28,7 @@ export default function Main() {
                 )}
 
                 <Outlet />
+                <Time />
             </LanguageContext.Provider>
         </MainContainer>
     );
