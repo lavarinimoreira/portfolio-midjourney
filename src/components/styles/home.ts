@@ -8,11 +8,10 @@ export const HomeContainer = styled.div`
 
     height: fit-content;
     margin-top: 6rem;
-    margin-left: 16%;
+    margin-left: 17%;
     padding: 4rem;
     border-radius: 48px;
 
-    /* margin-left: calc(50% - 21rem); */
     background-color: ${({ theme }) => theme.colors.contentBg};
 
     h1 {
@@ -26,11 +25,19 @@ export const HomeContainer = styled.div`
 
     @media (max-width: 1250px) {
         & {
-            margin-left: 4rem;
+            width: fit-content;
+            margin: 6rem 0 0 2rem;
         }
     }
 
-    @media (max-width: 1250px) {
+    @media (max-width: 1000px) {
+        & {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+
+    @media (max-width: 895px) {
         & {
             margin: 2rem 1rem 0 1rem;
             padding: 1rem;
@@ -44,6 +51,12 @@ export const HomeContainer = styled.div`
         h2 {
             font-size: ${({ theme }) => theme.fontSize.base};
             margin-bottom: 2rem;
+        }
+    }
+
+    @media (max-width: 375px) {
+        h1 {
+            font-size: 1.5rem;
         }
     }
 `;

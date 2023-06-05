@@ -52,7 +52,7 @@ export const NavigationLinks = styled.nav`
     padding-right: 2rem;
     width: 100%;
 
-    @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    @media (max-width: 750px) {
         grid-template-columns: auto auto;
         gap: 0.8rem;
         padding: 0;
@@ -86,7 +86,7 @@ export const NavigationLinks = styled.nav`
             cursor: pointer;
         }
 
-        @media screen and (max-width: ${(props) => props.theme.breakpoints.md}) {
+        @media (max-width: 750px) {
             border-radius: 20px;
             width: 100px;
             &:hover {

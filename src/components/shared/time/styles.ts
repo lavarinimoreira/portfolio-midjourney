@@ -10,6 +10,10 @@ export const Container = styled.div`
     /* justify-content: flex-end; */
 
     margin: 4rem 4rem 0 0;
+
+    @media (max-width: 1400px) {
+        display: none;
+    }
 `;
 
 export const SystemTime = styled.div`
@@ -21,17 +25,4 @@ export const SystemTime = styled.div`
     .date {
         margin-bottom: 0.5rem;
     }
-`;
-
-export const Computer = styled.img`
-    width: 100px;
-    height: 100px;
-
-    opacity: 0.8;
-    /* transform: rotate(6deg); */
-
-    border: 2px ${({ theme }) => theme.colors.gray400} solid;
-    border-radius: 24px;
-
-    padding: 4px;
 `;

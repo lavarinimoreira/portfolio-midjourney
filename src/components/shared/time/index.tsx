@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Computer, Container, SystemTime } from './styles';
+import { Container, SystemTime } from './styles';
 
 function Time() {
     const [date, setDate] = useState(new Date());
@@ -18,7 +18,6 @@ function Time() {
                 <span className='date'>{date.toLocaleDateString()}</span>
                 <span>{date.toLocaleTimeString()}</span>
             </SystemTime>
-            <Computer src='images/computer.png' />
         </Container>
     );
 }

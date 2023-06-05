@@ -1,0 +1,25 @@
+{
+    "gallery": [
+        { "id": "about", "image": "/images/gallery/about.png" },
+        { "id": "computer-vc", "image": "/images/gallery/computer-vc.png" },
+        { "id": "home", "image": "/images/gallery/home.png" },
+        { "id": "main-title", "image": "/images/gallery/main-title.png" },
+        { "id": "github-api-1", "image": "/images/gallery/github-api-1.png" },
+        { "id": "github-api-2", "image": "/images/gallery/github-api-2.png" },
+        { "id": "sea-waves", "image": "/images/gallery/sea-waves.png" },
+        { "id": "cowsay", "image": "/images/gallery/cowsay.png" },
+        { "id": "loading-english", "image": "/images/gallery/loading-english.png" },
+        { "id": "loading-portuguese", "image": "/images/gallery/loading-portuguese.png" },
+        { "id": "planetary", "image": "/images/gallery/planetary.png" },
+        { "id": "tasks", "image": "/images/gallery/tasks.png" },
+        { "id": "terminal", "image": "/images/gallery/terminal.png" },
+        { "id": "setup", "image": "/images/gallery/setup.png" },
+        { "id": "computer", "image": "/images/gallery/computer.png" },
+        { "id": "chronometer", "image": "/images/gallery/chronometer.png" },
+        { "id": "text-generator", "image": "/images/gallery/text-generator.png" },
+        {
+            "id": "ronaldinho-statue-congrats",
+            "image": "/images/gallery/ronaldinho-statue-congrats.png"
+        }
+    ]
+}

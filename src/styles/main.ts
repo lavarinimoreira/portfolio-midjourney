@@ -6,5 +6,6 @@ export const MainContainer = styled.div`
 
     @media (max-width: 750px) {
         flex-direction: column;
+        align-items: center;
     }
 `;
