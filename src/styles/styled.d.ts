@@ -42,6 +42,7 @@ declare module 'styled-components' {
             contentBg: string;
             buttonBg: string;
             buttonHover: string;
+            link: string;
         };
         fontFamily: {
             text: string;

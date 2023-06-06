@@ -49,6 +49,7 @@ export const theme: DefaultTheme = {
         contentBg: '#151f38',
         buttonBg: '#047857',
         buttonHover: '#065f46',
+        link: '#63b3ed',
     },
     fontFamily: {
         text: ['JetBrains Mono', 'monospace'].join(','),

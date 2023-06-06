@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
 export const HomeContainer = styled.div`
+    position: absolute;
+
+    left: calc(50% - 350px);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    height: fit-content;
+    width: 700px;
     margin-top: 6rem;
-    margin-left: 17%;
-    padding: 4rem;
+    padding: 4rem 0 7rem 0;
     border-radius: 48px;
 
     background-color: ${({ theme }) => theme.colors.contentBg};

@@ -1,5 +1,11 @@
-function about() {
-    return <h1>About Page</h1>;
-}
+import { useContext } from 'react';
 
-export default about;
+import PortugueseAbout from '../components/portuguese/about';
+import EnglishAbout from '../components/english/about';
+import LanguageContext, { languages } from '../contexts/language-context';
+
+export default function AboutPage() {
+    const language = useContext(LanguageContext);
+
+    return language === languages.english ? <EnglishAbout /> : <PortugueseAbout />;
+}

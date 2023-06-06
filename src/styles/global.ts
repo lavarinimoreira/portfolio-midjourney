@@ -9,5 +9,6 @@ export const GlobalStyle = createGlobalStyle`
     color: ${(props) => props.theme.colors.white};
     font-family: ${(props) => props.theme.fontFamily.text};
     /* padding: 1rem; */
+    box-sizing: border-box;
   }
 `;
