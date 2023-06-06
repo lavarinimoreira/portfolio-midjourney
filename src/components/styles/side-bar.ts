@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const SidebarContainer = styled.main`
     display: flex;
     flex-direction: column;
-    font-family: ${(props) => props.theme.fontFamily.sidebar};
+    /* font-family: ${(props) => props.theme.fontFamily.sidebar}; */
 
     min-height: 100vh;
     width: 21rem;
@@ -34,7 +34,7 @@ export const Avatar = styled.img`
 `;
 
 export const TitleLink = styled(Link)`
-    font-family: ${({ theme }) => theme.fontFamily.text};
+    /* font-family: ${({ theme }) => theme.fontFamily.text}; */
     font-size: ${({ theme }) => theme.fontSize.xl};
     text-decoration: none;
     color: ${({ theme }) => theme.colors.white};

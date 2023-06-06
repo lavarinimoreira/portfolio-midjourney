@@ -23,7 +23,7 @@ interface SideBarProps {
 function EnglishSideBar({ toggleLanguage }: SideBarProps) {
     return (
         <SidebarContainer>
-            <Avatar src='images/gabriel.png' />
+            <Avatar src='images/gabriel.jpeg' />
             <TitleLink to='/'>lavarinimoreira.me</TitleLink>
             <LanguageButton toggleLanguage={toggleLanguage} />
             <NavigationLinks>

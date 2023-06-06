@@ -18,12 +18,13 @@ export const HomeContainer = styled.div`
     background-color: ${({ theme }) => theme.colors.contentBg};
 
     h1 {
-        margin: 2rem 0 2rem 0;
+        margin: 2rem 0 1rem 0;
         font-size: ${({ theme }) => theme.fontSize['4xl']};
     }
 
     h2 {
         margin: 0 0 4rem 0;
+        color: ${({ theme }) => theme.colors.pink};
     }
 
     @media (max-width: 1250px) {

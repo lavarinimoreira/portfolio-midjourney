@@ -19,6 +19,7 @@ export const Container = styled.div`
 export const SystemTime = styled.div`
     display: flex;
     flex-direction: column;
+    font-family: ${({ theme }) => theme.fontFamily.text};
 
     margin-right: 2rem;
 

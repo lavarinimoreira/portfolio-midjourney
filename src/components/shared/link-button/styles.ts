@@ -14,7 +14,7 @@ export const LinkButtonContainer = styled(Link)`
     color: ${({ theme }) => theme.colors.white};
     background: ${({ theme }) => theme.colors.buttonBg};
 
-    padding: 0.6rem 1.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 24px;
     cursor: pointer;
 
