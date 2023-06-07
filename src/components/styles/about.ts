@@ -12,7 +12,7 @@ export const AboutContainer = styled.div`
     width: 800px;
     height: fit-content;
     margin-top: 6rem;
-    /* margin-left: 17%; */
+    margin-bottom: 5rem;
     padding: 4rem 6rem;
     border-radius: 48px;
     background-color: ${({ theme }) => theme.colors.contentBg};
@@ -69,6 +69,11 @@ export const AboutContainer = styled.div`
 
     .certifications {
         margin: 0;
+    }
+
+    & > :last-child {
+        margin: 3rem 0 0 0;
+        color: white;
     }
 `;
 

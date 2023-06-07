@@ -10,5 +10,23 @@ export const GlobalStyle = createGlobalStyle`
     font-family: ${(props) => props.theme.fontFamily.sidebar};
     /* padding: 1rem; */
     box-sizing: border-box;
+
+    ::-webkit-scrollbar{
+      width: 15px;
+    }
+
+    ::-webkit-scrollbar-track{
+      background: ${({ theme }) => theme.colors.black};
+    }
+
+    ::-webkit-scrollbar-thumb{
+      background: ${({ theme }) => theme.colors.gray500};
+      border-radius: 3rem;
+    }
+
+    *::selection{
+      color: ${({ theme }) => theme.colors.white};
+      background: rgba(55, 48, 163, 1);
+    }
   }
 `;

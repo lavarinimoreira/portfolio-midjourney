@@ -6,6 +6,7 @@ import { SiCplusplus, SiNextdotjs, SiNodedotjs } from 'react-icons/si';
 
 import certifications from '../../../data/certifications.json';
 import CertificationCard from '../../shared/certification-card';
+import LinkButton from '../../shared/link-button';
 
 function EnglishAbout() {
     return (
@@ -99,9 +100,12 @@ function EnglishAbout() {
                     />
                 ))}
             </CertificationsGrid>
-            {/* <div className='projects-button'>
-                <Button title='projects' handleClick={handleNavigate} />
-            </div> */}
+            <LinkButton
+                backgroundcolor='#4A41C8'
+                bghover='#3730A3'
+                to='/projects'
+                title='Projects'
+            />
         </AboutContainer>
     );
 }

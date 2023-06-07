@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const LinkButtonContainer = styled(Link)`
+export const LinkButtonContainer = styled(Link)<{ backgroundcolor: string; bghover: string }>`
     display: flex;
     align-items: center;
 
@@ -12,7 +12,7 @@ export const LinkButtonContainer = styled(Link)`
     width: fit-content;
     text-decoration: none;
     color: ${({ theme }) => theme.colors.white};
-    background: ${({ theme }) => theme.colors.buttonBg};
+    background: ${(props) => props.backgroundcolor};
 
     padding: 1rem 1.5rem;
     border-radius: 24px;
@@ -24,6 +24,6 @@ export const LinkButtonContainer = styled(Link)`
 
     transition: background 0.15s, transform 0.15s;
     &:hover {
-        background: ${({ theme }) => theme.colors.buttonHover};
+        background: ${(props) => props.bghover};
     }
 `;

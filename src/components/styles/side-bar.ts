@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const SidebarContainer = styled.main`
+    position: fixed;
     display: flex;
     flex-direction: column;
     /* font-family: ${(props) => props.theme.fontFamily.sidebar}; */
