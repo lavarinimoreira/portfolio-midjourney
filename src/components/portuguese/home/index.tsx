@@ -5,8 +5,8 @@ function EnglishHome() {
     return (
         <HomeContainer>
             <h1>Gabriel Lavarini</h1>
-            <h2>{`> Desenvolvedor web, editor e artista`} </h2>
-            {/* <LinkButton to='/about' title='Ver mais' /> */}
+            <h2>{`> Desenvolvedor, editor e artista`} </h2>
+            <LinkButton backgroundcolor='#047857' bghover='#065f46' to='/about' title='Ver mais' />
         </HomeContainer>
     );
 }
