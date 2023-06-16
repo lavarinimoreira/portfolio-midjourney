@@ -27,25 +27,25 @@ export const HomeContainer = styled.div`
         color: ${({ theme }) => theme.colors.pink};
     }
 
-    @media (max-width: 1250px) {
+    @media (max-width: 1373px) {
         & {
-            width: fit-content;
-            margin: 6rem 0 0 2rem;
+            margin: 6rem 0 0 10.5rem;
         }
     }
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1045px) {
         & {
-            padding-left: 1rem;
-            padding-right: 1rem;
+            width: 600px;
+            margin-left: 13.5rem;
         }
     }
 
-    @media (max-width: 895px) {
+    @media (max-width: 954px) {
         & {
-            margin: 2rem 1rem 0 1rem;
-            padding: 1rem;
+            margin-left: 23rem;
+            padding: 0 2rem 2rem 2rem;
             text-align: center;
+            width: fit-content;
         }
 
         h1 {
@@ -56,6 +56,13 @@ export const HomeContainer = styled.div`
             font-size: ${({ theme }) => theme.fontSize.base};
             margin-bottom: 2rem;
         }
+    }
+
+    @media (max-width: 750px) {
+        margin-top: 30rem;
+        margin-left: 0;
+
+        left: calc(50% - 162px);
     }
 
     @media (max-width: 375px) {
