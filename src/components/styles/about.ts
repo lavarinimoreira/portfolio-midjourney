@@ -75,6 +75,63 @@ export const AboutContainer = styled.div`
         margin: 3rem 0 0 0;
         color: white;
     }
+
+    @media (max-width: 1700px) {
+        & {
+            margin-left: 10.5rem;
+        }
+    }
+
+    @media (max-width: 1350px) {
+        & {
+            padding: 2rem 3rem;
+            margin-left: 13.5rem;
+        }
+    }
+
+    @media (max-width: 1255px) {
+        & {
+            width: 600px;
+            margin-left: 19.75rem;
+        }
+    }
+
+    @media (max-width: 1055px) {
+        & {
+            width: 400px;
+            margin-left: 26rem;
+        }
+    }
+
+    @media (max-width: 850px) {
+        & {
+            padding: 2rem 2rem;
+            margin-left: 28.5rem;
+            h1 {
+                font-size: ${({ theme }) => theme.fontSize['3xl']};
+            }
+
+            h2 {
+                font-size: ${({ theme }) => theme.fontSize.lg};
+            }
+
+            p {
+                font-size: ${({ theme }) => theme.fontSize.base};
+            }
+        }
+    }
+
+    @media (max-width: 750px) {
+        & {
+            width: 290px;
+            margin-top: 30rem;
+            margin-left: 0;
+
+            text-align: center;
+
+            left: calc(50% - 177px);
+        }
+    }
 `;
 
 export const SkillContainer = styled.div`
@@ -84,6 +141,10 @@ export const SkillContainer = styled.div`
     color: ${({ theme }) => theme.colors.gray400};
 
     margin-bottom: 3rem;
+
+    @media (max-width: 1050px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     div {
         display: flex;
@@ -100,6 +161,12 @@ export const SkillContainer = styled.div`
             font-size: 2rem;
             margin-right: 0.5rem;
         }
+
+        /* @media (max-width: 1055px) {
+            & {
+                padding: 0 0.5px 0 0.5px;
+            }
+        } */
     }
 
     .js {

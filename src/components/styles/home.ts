@@ -45,7 +45,7 @@ export const HomeContainer = styled.div`
             margin-left: 23rem;
             padding: 0 2rem 2rem 2rem;
             text-align: center;
-            width: fit-content;
+            width: 260px;
         }
 
         h1 {

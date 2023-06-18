@@ -28,7 +28,7 @@ function EnglishAbout() {
 
             <h2>About Me</h2>
             <p>
-                {`I'm a full-stack web developer currently looking for a job opportunity, but
+                {`I'm a front end web developer currently looking for a job opportunity, but
                         I also do freelance. I have an academic degree in Arts from UFMG and I
                         started learning about Programming in 2020, it was love at the first "Hello
                         World". In 2021 I started programming more seriously, and now I'am in the
