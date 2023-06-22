@@ -2,14 +2,10 @@
     "projectsEnglish": [
         {
             "id": "portfolio-website",
-            "images": [
-                "/images/portfolio/lavarinimoreira/lavarinimoreira-1.png",
-                "/images/portfolio/lavarinimoreira/lavarinimoreira-2.png",
-                "/images/portfolio/lavarinimoreira/lavarinimoreira-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "lavarinimoreira .me",
-            "date": "20/04/2023",
-            "description": "I've always really enjoyed thematic and synthwave aesthetics and really wanted to build something expressing that. I researched more about images in these styles and, of course, I ended up coming across GTA vice city again, which is also by far one of my favorite games and has a design that I am simply passionate about. The strategy was to build a website with portability in both Portuguese and English to aid my job search. The components are divided into each of the languages ​​and rendered according to the user's Browser default, and can also be changed by clicking on the top flag of the navigation bar that will store the selected language in local storage. I hope you enjoy it as much as I enjoyed building it.",
+            "date": "20/05/2023",
+            "description": "The strategy here was to build a website with portability in both Portuguese and English that showcases my expertise and creativity in web development to aid my job search. Through the use of responsive design, the website adapts beautifully to different devices and screen sizes. I hope you enjoy it as much as I enjoyed building it.",
             "git": "https://github.com/lavarinimoreira/portfolio-website",
             "web": "https://lavarinimoreira.me",
             "webTitle": "lavarinimoreira.me",
@@ -17,11 +13,7 @@
         },
         {
             "id": "github-api",
-            "images": [
-                "/images/portfolio/github-api/github-api-1.png",
-                "/images/portfolio/github-api/github-api-2.png",
-                "/images/portfolio/github-api/github-api-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "GitHub API",
             "date": "29/03/2023",
             "description": "This is a React application that consumes the Github API to show a user's informations as well the projects. That was my first React project using styled components, I really like it and I intend to use it in my future projects.",
@@ -32,11 +24,7 @@
         },
         {
             "id": "sea-waves",
-            "images": [
-                "/images/portfolio/sea-waves/sea-waves-1.png",
-                "/images/portfolio/sea-waves/sea-waves-2.png",
-                "/images/portfolio/sea-waves/sea-waves-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Sea Waves",
             "date": "22/03/2023",
             "description": "It's a shader studie that simulates the movement and appearance of waves. I choose this very bluish color that could convey something tropical.",
@@ -47,11 +35,7 @@
         },
         {
             "id": "retro-terminal",
-            "images": [
-                "/images/portfolio/retro-terminal/terminal.png",
-                "/images/portfolio/retro-terminal/time.png",
-                "/images/portfolio/retro-terminal/date.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Retro Terminal",
             "date": "07/03/2023",
             "description": "I realy enjoy this retro styles, so in this project the main objective was to build a simple app that displays the current system time and date in a retro terminal style using SCSS.",
@@ -62,11 +46,7 @@
         },
         {
             "id": "planetary",
-            "images": [
-                "/images/portfolio/planetary/planetary-1.png",
-                "/images/portfolio/planetary/planetary-2.png",
-                "/images/portfolio/planetary/planetary-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Astronomy Picture of the day",
             "date": "18/02/2023",
             "description": "This application consumes Nasa\\'s API picture of the day, providing an image with some information about. I also added this free license spaceship 3d model in the composition.",
@@ -77,11 +57,7 @@
         },
         {
             "id": "ronaldinho-statue",
-            "images": [
-                "/images/portfolio/ronaldinho-statue/ronaldinho-statue-1.png",
-                "/images/portfolio/ronaldinho-statue/ronaldinho-statue-2.png",
-                "/images/portfolio/ronaldinho-statue/ronaldinho-statue-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Ronaldinho Statue",
             "date": "11/02/2023",
             "description": "A React-TypeScript study to handle forms events. It was also very interesting for me to better understanding useState and useEffect hooks.",
@@ -92,11 +68,7 @@
         },
         {
             "id": "chronometer-studies",
-            "images": [
-                "/images/portfolio/chronometer/chronometer-1.png",
-                "/images/portfolio/chronometer/chronometer-2.png",
-                "/images/portfolio/chronometer/chronometer-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Chronometer Studies",
             "date": "02/02/2023",
             "description": "A React application that allows users to add tasks with time to be done. A recursive function was used for the time decrement.",
@@ -107,11 +79,7 @@
         },
         {
             "id": "text-generator",
-            "images": [
-                "/images/portfolio/text-generator/text-generator-1.png",
-                "/images/portfolio/text-generator/text-generator-2.png",
-                "/images/portfolio/text-generator/text-generator-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Text Generator",
             "date": "27/01/2023",
             "description": "A React study building an app that serves a certain amount of text to the user (min 1, max 8).",
@@ -122,11 +90,7 @@
         },
         {
             "id": "synthwave-taskify",
-            "images": [
-                "/images/portfolio/synthwave-taskify/taskify-1.png",
-                "/images/portfolio/synthwave-taskify/taskify-2.png",
-                "/images/portfolio/synthwave-taskify/taskify-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Todo List",
             "date": "11/01/2023",
             "description": "A TypeScript and React study by building a to-do list. It allows users to add, edit, and delete tasks from a list.",
@@ -140,14 +104,10 @@
     "projectsPortuguese": [
         {
             "id": "portfolio-website",
-            "images": [
-                "/images/portfolio/lavarinimoreira/lavarinimoreira-1.png",
-                "/images/portfolio/lavarinimoreira/lavarinimoreira-2.png",
-                "/images/portfolio/lavarinimoreira/lavarinimoreira-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "lavarinimoreira .me",
             "date": "20/04/2023",
-            "description": "Sempre gostei muito das temáticas aesthetic e synthwave e queria construir algo que expressasse alguma destas estéticas. Pesquisei mais sobre imagens nestes estilos e, claro, acabei me deparando novamente com o GTA vice city, que é também de longe um dos meus jogos favoritos e carrega bem uma temática que eu simplesmente sou apaixonado. A estratégia foi construir um site com portabilidade tanto em português quanto em inglês e que possa ajudar na minha procura de emprego. Os componentes são divididos em cada uma das linguagens e renderizados de acordo com o padrão do Navegador do usuário, sendo que também podem ser alterados clickando na bandeira superior da barra de navegação que armazenará o idioma selecionago no local storage. No mais, espero que você se divirta navegando por aqui igual eu me diverti construindo este projeto.",
+            "description": "A estratégia aqui foi construir um site com portabilidade em português e inglês que mostrasse minha experiência e criatividade em desenvolvimento web para ajudar na minha procura de emprego. Através do uso de design responsivo, o site se adapta perfeitamente a diferentes dispositivos e tamanhos de tela. Espero que gostem!.",
             "git": "https://github.com/lavarinimoreira/portfolio-website",
             "web": "https://lavarinimoreira.me",
             "webTitle": "lavarinimoreira.me",
@@ -155,11 +115,7 @@
         },
         {
             "id": "github-api",
-            "images": [
-                "/images/portfolio/github-api/github-api-1.png",
-                "/images/portfolio/github-api/github-api-2.png",
-                "/images/portfolio/github-api/github-api-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "API GitHub",
             "date": "29/03/2023",
             "description": "Este é um aplicativo React que consome a API do Github para mostrar as informações de um usuário, bem como seus projetos. Esse foi meu primeiro projeto React usando componentes estilizados, achei esta tecnologia muito interessante e pretendo utilizá-la em meus futuros projetos.",
@@ -170,11 +126,7 @@
         },
         {
             "id": "sea-waves",
-            "images": [
-                "/images/portfolio/sea-waves/sea-waves-1.png",
-                "/images/portfolio/sea-waves/sea-waves-2.png",
-                "/images/portfolio/sea-waves/sea-waves-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Ondas Marinhas",
             "date": "22/03/2023",
             "description": "Um estudo de shader que simula o movimento e aparência das ondas. Optei por uma coloração bem azulada que pudesse remeter algo de tropical.",
@@ -185,11 +137,7 @@
         },
         {
             "id": "retro-terminal",
-            "images": [
-                "/images/portfolio/retro-terminal/terminal.png",
-                "/images/portfolio/retro-terminal/time.png",
-                "/images/portfolio/retro-terminal/date.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Terminal Retro",
             "date": "07/03/2023",
             "description": "Eu realmente gosto desses estilos retrô, então neste projeto o objetivo principal foi construir um aplicativo simples que mostrasse a hora e a data atual do sistema em um estilo de terminal retrô usando SCSS.",
@@ -200,11 +148,7 @@
         },
         {
             "id": "planetary",
-            "images": [
-                "/images/portfolio/planetary/planetary-1.png",
-                "/images/portfolio/planetary/planetary-2.png",
-                "/images/portfolio/planetary/planetary-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Imagem do dia",
             "date": "18/02/2023",
             "description": "Este aplicativo consome a API \"picture of the day\" da NASA, disponibilizando uma imagem com algumas informações sobre. Eu também adicionei este modelo 3D de aeronave de licença livre na composição.",
@@ -215,11 +159,7 @@
         },
         {
             "id": "ronaldinho-statue",
-            "images": [
-                "/images/portfolio/ronaldinho-statue/ronaldinho-statue-1.png",
-                "/images/portfolio/ronaldinho-statue/ronaldinho-statue-2.png",
-                "/images/portfolio/ronaldinho-statue/ronaldinho-statue-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Estátua do Ronaldinho",
             "date": "11/02/2023",
             "description": "Um estudo de React e TypeScript para lidar com eventos de formulários. Também foi muito interessante para melhor entender as funcionalidades dos hooks useState e useEffect.",
@@ -230,11 +170,7 @@
         },
         {
             "id": "chronometer-studies",
-            "images": [
-                "/images/portfolio/chronometer/chronometer-1.png",
-                "/images/portfolio/chronometer/chronometer-2.png",
-                "/images/portfolio/chronometer/chronometer-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Estudos Cronômetro",
             "date": "02/02/2023",
             "description": "Um aplicativo React que permite aos usuários adicionar tarefas com um determinado tempo para serem realizadas. Foi utilizada uma função recursiva para o decremento de tempo.",
@@ -245,11 +181,7 @@
         },
         {
             "id": "text-generator",
-            "images": [
-                "/images/portfolio/text-generator/text-generator-1.png",
-                "/images/portfolio/text-generator/text-generator-2.png",
-                "/images/portfolio/text-generator/text-generator-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Gerador de Texto",
             "date": "27/01/2023",
             "description": "Um estudo React construindo um aplicativo que disponibilize uma determinada quantidade de texto para o usuário (min 1, máx 8).",
@@ -260,11 +192,7 @@
         },
         {
             "id": "synthwave-taskify",
-            "images": [
-                "/images/portfolio/synthwave-taskify/taskify-1.png",
-                "/images/portfolio/synthwave-taskify/taskify-2.png",
-                "/images/portfolio/synthwave-taskify/taskify-3.png"
-            ],
+            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
             "title": "Lista de Tarefas",
             "date": "11/01/2023",
             "description": "Um estudo de TypeScript e React criando uma lista de tarefas. Ele permite que os usuários adicionem, editem e excluam tarefas de uma lista.",
