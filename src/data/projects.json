@@ -3,9 +3,9 @@
         {
             "id": "portfolio-website",
             "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
-            "title": "lavarinimoreira .me",
+            "title": "lavarinimoreira.me",
             "date": "20/05/2023",
-            "description": "The strategy here was to build a website with portability in both Portuguese and English that showcases my expertise and creativity in web development to aid my job search. Through the use of responsive design, the website adapts beautifully to different devices and screen sizes. I hope you enjoy it as much as I enjoyed building it.",
+            "description": "The strategy here was to build a website with portability in both Portuguese and English that showcases my expertise and creativity in web development to aid my job search. Through the use of responsive design, the website adapts beautifully to different devices and screen sizes. It was built with React, TypeScript and styled components.",
             "git": "https://github.com/lavarinimoreira/portfolio-website",
             "web": "https://lavarinimoreira.me",
             "webTitle": "lavarinimoreira.me",
@@ -54,50 +54,6 @@
             "web": "https://planetary.lavarinimoreira.me/",
             "webTitle": "planetary.lavarinimoreira.me",
             "technologies": "React, TypeScript, CSS, HTML, React Three Fiber"
-        },
-        {
-            "id": "ronaldinho-statue",
-            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
-            "title": "Ronaldinho Statue",
-            "date": "11/02/2023",
-            "description": "A React-TypeScript study to handle forms events. It was also very interesting for me to better understanding useState and useEffect hooks.",
-            "git": "https://github.com/lavarinimoreira/ronaldinho-statue",
-            "web": "https://ronaldinho-statue.lavarinimoreira.me/",
-            "webTitle": "ronaldinho-statue.lavarinimoreira.me",
-            "technologies": "React, TypeScript, CSS, HTML"
-        },
-        {
-            "id": "chronometer-studies",
-            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
-            "title": "Chronometer Studies",
-            "date": "02/02/2023",
-            "description": "A React application that allows users to add tasks with time to be done. A recursive function was used for the time decrement.",
-            "git": "https://github.com/lavarinimoreira/chronometer-studies",
-            "web": "https://chronometer-studies.lavarinimoreira.me/",
-            "webTitle": "chronometer-studies.lavarinimoreira.me",
-            "technologies": "React, TypeScript, CSS, HTML"
-        },
-        {
-            "id": "text-generator",
-            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
-            "title": "Text Generator",
-            "date": "27/01/2023",
-            "description": "A React study building an app that serves a certain amount of text to the user (min 1, max 8).",
-            "git": "https://github.com/lavarinimoreira/text-generator",
-            "web": "https://text-generator.lavarinimoreira.me",
-            "webTitle": "text-generator.lavarinimoreira.me",
-            "technologies": "React, TypeScript, CSS, HTML"
-        },
-        {
-            "id": "synthwave-taskify",
-            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
-            "title": "Todo List",
-            "date": "11/01/2023",
-            "description": "A TypeScript and React study by building a to-do list. It allows users to add, edit, and delete tasks from a list.",
-            "git": "https://github.com/lavarinimoreira/synthwave-taskify",
-            "web": "https://synthwave-taskify.lavarinimoreira.me",
-            "webTitle": "synthwave-taskify.lavarinimoreira.me",
-            "technologies": "React, TypeScript, CSS, HTML"
         }
     ],
 
@@ -156,50 +112,6 @@
             "web": "https://planetary.lavarinimoreira.me/",
             "webTitle": "planetary.lavarinimoreira.me",
             "technologies": "React, TypeScript, CSS, HTML, React Three Fiber"
-        },
-        {
-            "id": "ronaldinho-statue",
-            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
-            "title": "Estátua do Ronaldinho",
-            "date": "11/02/2023",
-            "description": "Um estudo de React e TypeScript para lidar com eventos de formulários. Também foi muito interessante para melhor entender as funcionalidades dos hooks useState e useEffect.",
-            "git": "https://github.com/lavarinimoreira/ronaldinho-statue",
-            "web": "https://ronaldinho-statue.lavarinimoreira.me/",
-            "webTitle": "ronaldinho-statue.lavarinimoreira.me",
-            "technologies": "React, TypeScript, CSS, HTML"
-        },
-        {
-            "id": "chronometer-studies",
-            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
-            "title": "Estudos Cronômetro",
-            "date": "02/02/2023",
-            "description": "Um aplicativo React que permite aos usuários adicionar tarefas com um determinado tempo para serem realizadas. Foi utilizada uma função recursiva para o decremento de tempo.",
-            "git": "https://github.com/lavarinimoreira/chronometer-studies",
-            "web": "https://chronometer-studies.lavarinimoreira.me/",
-            "webTitle": "chronometer-studies.lavarinimoreira.me",
-            "technologies": "React, TypeScript, CSS, HTML"
-        },
-        {
-            "id": "text-generator",
-            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
-            "title": "Gerador de Texto",
-            "date": "27/01/2023",
-            "description": "Um estudo React construindo um aplicativo que disponibilize uma determinada quantidade de texto para o usuário (min 1, máx 8).",
-            "git": "https://github.com/lavarinimoreira/text-generator",
-            "web": "https://text-generator.lavarinimoreira.me",
-            "webTitle": "text-generator.lavarinimoreira.me",
-            "technologies": "React, TypeScript, CSS, HTML"
-        },
-        {
-            "id": "synthwave-taskify",
-            "image": "/images/portfolio/lavarinimoreira/lavarinimoreira.png",
-            "title": "Lista de Tarefas",
-            "date": "11/01/2023",
-            "description": "Um estudo de TypeScript e React criando uma lista de tarefas. Ele permite que os usuários adicionem, editem e excluam tarefas de uma lista.",
-            "git": "https://github.com/lavarinimoreira/synthwave-taskify",
-            "web": "https://synthwave-taskify.lavarinimoreira.me",
-            "webTitle": "synthwave-taskify.lavarinimoreira.me",
-            "technologies": "React, TypeScript, CSS, HTML"
         }
     ]
 }
