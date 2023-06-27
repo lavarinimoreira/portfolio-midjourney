@@ -41,7 +41,7 @@ export const ProjectsContainer = styled.div`
         margin: 0;
         line-height: 1.5rem;
         text-align: justify;
-        color: ${({ theme }) => theme.colors.gray400};
+        color: ${({ theme }) => theme.colors.gray500};
     }
 `;
 
@@ -66,7 +66,7 @@ export const ProjectsCard = styled.div`
 
 export const LineBreak = styled.div`
     width: 100%;
-    border-top: ${({ theme }) => theme.colors.gray500} solid 1px;
+    border-top: ${({ theme }) => theme.colors.gray600} solid 1px;
     height: 1px;
     margin-top: 1rem;
 `;
