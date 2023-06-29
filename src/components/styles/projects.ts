@@ -43,6 +43,67 @@ export const ProjectsContainer = styled.div`
         text-align: justify;
         color: ${({ theme }) => theme.colors.gray500};
     }
+
+    @media (max-width: 1700px) {
+        & {
+            margin-left: 10.5rem;
+        }
+    }
+
+    @media (max-width: 1350px) {
+        & {
+            padding: 2rem 3rem;
+            margin-left: 13.5rem;
+        }
+    }
+
+    @media (max-width: 1255px) {
+        & {
+            width: 600px;
+            margin-left: 19.75rem;
+        }
+    }
+
+    @media (max-width: 1055px) {
+        & {
+            width: 400px;
+            margin-left: 26rem;
+        }
+    }
+
+    @media (max-width: 850px) {
+        & {
+            padding: 2rem 2rem;
+            margin-left: 28.5rem;
+            h1 {
+                font-size: ${({ theme }) => theme.fontSize['3xl']};
+            }
+
+            h2 {
+                font-size: ${({ theme }) => theme.fontSize.lg};
+            }
+
+            p {
+                font-size: ${({ theme }) => theme.fontSize.base};
+            }
+        }
+    }
+
+    @media (max-width: 750px) {
+        & {
+            width: 290px;
+            margin-top: 30rem;
+            margin-left: 0;
+
+            text-align: center;
+
+            left: calc(50% - 177px);
+
+            p {
+                width: 75%;
+            }
+        }
+    }
 `;
 
 export const ProjectsGrid = styled.div`
@@ -62,6 +123,18 @@ export const ProjectsCard = styled.div`
         width: 600px;
         height: 310px;
     }
+
+    @media (max-width: 1055px) {
+        & {
+            width: 400px;
+            margin-left: 26rem;
+            img {
+                width: 300px;
+                height: 155px;
+            }
+            margin: 0;
+        }
+    }
 `;
 
 export const LineBreak = styled.div`
@@ -69,4 +142,8 @@ export const LineBreak = styled.div`
     border-top: ${({ theme }) => theme.colors.gray600} solid 1px;
     height: 1px;
     margin-top: 1rem;
+
+    @media (max-width: 750px) {
+        width: 75%;
+    }
 `;

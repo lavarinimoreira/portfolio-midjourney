@@ -10,7 +10,7 @@ export const AboutContainer = styled.div`
     align-items: center;
 
     width: 800px;
-    height: fit-content;
+    /* height: fit-content; */
     margin-top: 6rem;
     margin-bottom: 5rem;
     padding: 4rem 6rem;
